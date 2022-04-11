@@ -1,0 +1,27 @@
+package checkLanguage;
+
+import java.util.Scanner;
+
+public class checkLanguage {
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Give me a language");
+		String chosenLanguage = scan.nextLine();
+		boolean knowsLanguage = checkLanguage2(chosenLanguage);
+		System.out.println(knowsLanguage);
+	}
+
+	public static boolean checkLanguage2(String language) {
+
+		boolean iKnowEveryLanguageExceptJapanese = true;
+
+		if (language.equals("Japanese")) {
+
+			iKnowEveryLanguageExceptJapanese = false;
+		}
+
+		return iKnowEveryLanguageExceptJapanese;
+	}
+
+}

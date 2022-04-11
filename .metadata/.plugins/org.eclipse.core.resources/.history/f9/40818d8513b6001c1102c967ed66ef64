@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class StringsAndMethods {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Type in a sentence.");
+		String userInput = scan.nextLine();
+		capitalize(userInput);
+	}
+
+	public static void capitalize(String word) {
+		String word = word.substring(0, 1).toUpperCase() + word.substring(1);
+		System.out.println(word);
+		
+	}
+
+	public static void wheresWaldo(String phrase) {
+		int index = sentence.index
+	}
+	
+	public static void firstThingsFirst(String a, String b) {
+		
+	}
+	
+	public static void reverse(String s) {
+		
+	}
+	
+	public static void soLong(String a, String b) {
+		
+	}
+	
+	public static void afterMath(String phrase) {
+		
+	}
+	
+	public static void letterize(String word) {
+		
+	}
+	
+	
+}

@@ -1,0 +1,16 @@
+
+public class StringsAndMethods {
+
+	public static void main(String[] args) {
+
+
+	}
+
+	public static void capitalize(String word) {
+		String sentence = "you look awfully sleepy today...";
+		String output = sentence.substring(0, 1).toUpperCase() + sentence.substring(1);
+		System.out.println(output);
+		
+	}
+
+}
